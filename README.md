@@ -1,2 +1,10 @@
-# vue-cli-plugin-bluefeather
-A Vue 2.0 plugin cli for Blue Feather UI Framework
+# Vue Cli for Jungletron
+
+## Installation
+
+`vue add vue-cli-plugin-jungletron`
+
+## Notes
+
+This plugin only works for Vue 2+
+
