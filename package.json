@@ -1,7 +1,7 @@
 {
-  "name": "vue-cli-plugin-jungletron",
-  "version": "1.0.4",
-  "description": "A Vue-cli plugin for Jungletron - a VUE UI framework",
+  "name": "vue-cli-plugin-khakitron",
+  "version": "1.0.0",
+  "description": "A Vue CLI plugin for Khakitron - a VUE 2.0 UI framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,6 @@
     "Vue Ui Framework",
     "Jungletron"
   ],
-  "author": "Graviti Jungletron Team",
-  "license": "ISC"
+  "author": "Kan Zhou",
+  "license": "MIT"
 }

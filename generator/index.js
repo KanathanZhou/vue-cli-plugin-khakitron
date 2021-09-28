@@ -3,7 +3,7 @@ module.exports = function(api, options) {
 
   api.extendPackage({
     dependencies: {
-      'jungletron': '0.1.12'
+      'khakitron': '1.0.1'
     }
   });
 
@@ -14,7 +14,7 @@ module.exports = function(api, options) {
   }
 
   // also part of chaining the main file. doc: https://cli.vuejs.org/dev-guide/plugin-dev.html#changing-main-file
-  api.injectImports(api.entryFile, `import jungletron from './jungletron';`)
+  api.injectImports(api.entryFile, `import khakitron from './khakitron';`)
 }
 
 /**
@@ -30,7 +30,7 @@ module.exports.hooks = (api) => {
     const lines = contentMain.split(/\r?\n/g);
 
     const renderIndex = lines.findIndex(line => line.match(/render/));
-    lines[renderIndex] += `${EOL}  jungletron,`;
+    lines[renderIndex] += `${EOL}  khakitron,`;
 
     fs.writeFileSync(api.resolve(api.entryFile), lines.join(EOL), { encoding: 'utf-8' });
   })
